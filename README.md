@@ -149,3 +149,20 @@ In the `src/test/java/agh/dg` directory, there are tests for selected classes th
   - The *Vector2dTest* class contains tests for the Vector2d class.
 - The *SimulationTest* class tests the code of methods from the Simulation class (though it does not run the simulation itself).
 - The *StatisticsTest* class tests the correctness of handling statistical data.
+
+#### Running the Project
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd darwin-world
+   ```
+
+2. Open the project in your preferred IDE (such as **IntelliJ IDEA** or **Eclipse**) and ensure JavaFX is properly configured.
+
+3. Use **Gradle** to build and run the project:
+   ```bash
+   ./gradlew run
+   ```
+
+4. If using an IDE, run the `Main` class found in `src/main/java/agh/dg/Main.java` to start the application.
