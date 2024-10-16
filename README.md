@@ -74,9 +74,7 @@ Error analyzing
 Always expand output?
 python
 Copy code
-# Correcting the mistake - properly defining the content and saving it to README.md file
 
-readme_content = """
 # Darwin World Project
 
 ### Main Part Structure of the Project
